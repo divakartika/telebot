@@ -18,7 +18,7 @@ def getMessage():
 def webhook():
    bot.remove_webhook()
    # TO DO: Edit the value of variable railway_public_domain according to the railway public domain
-   railway_public_domain = "web-production-7056.up.railway.app"
+   railway_public_domain = "https://5000-divakartika-telebot-b9d411jytqy.ws-us92.gitpod.io"
 
    # NOTE: You need to use a publically available URL that the Telegram servers can reach.
    bot.set_webhook(url=f'{railway_public_domain}/{TOKEN}')
